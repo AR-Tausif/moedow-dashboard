@@ -4,10 +4,10 @@ import { FaImage } from 'react-icons/fa';
 const Sidebar = () => {
     return (
         <div className='bg-black h-screen'>
-            <div className="h-4/12 bg-red-500">
+            <div className="h-4/12">
                 <img src="https://i.ibb.co/nR93F4t/Group-10021.png" alt="" />
                 <span className='text-5xl'>LOGO HERE</span></div>
-            <div className="flex flex-col items-center h-full bg-gray-200 text-white">
+            <div className="flex flex-col items-center h-full text-white">
                 <div className="">
                     <ul>
                         <li className='border-2 border-gray-100 hover:bg-purple-500 w-52 hover:text-white py-3 rounded-lg text-center font-bold mt-3'>
